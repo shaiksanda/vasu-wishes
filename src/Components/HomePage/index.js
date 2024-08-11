@@ -5,10 +5,10 @@ class HomePage extends Component {
   state = {
     currentLine: 0,
     currentLetter: 0,
-    displayedText: ["", "", "", ""], // Array to hold displayed lines
+    displayedText: ["", "", "", "",""], // Array to hold displayed lines
   };
 
-  lines = ["HAPPY", "BIRTHDAY", "SANDA", "ESWARI"];
+  lines = ["HAPPY", "BIRTH","DAY", "SANDA", "ESWARI"];
 
   letterImageUrls = {
     n:

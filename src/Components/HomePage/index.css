@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: 130vh;
   background: linear-gradient(to bottom, #fbc2eb, #a6c0fe);
 }
 .line-container {
