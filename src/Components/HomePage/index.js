@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Navigate } from "react-router-dom";
 import "./index.css";
 
 class HomePage extends Component {
@@ -6,6 +7,7 @@ class HomePage extends Component {
     currentLine: 0,
     currentLetter: 0,
     displayedText: ["", "", "", "",""], // Array to hold displayed lines
+    redirectedBallonsPage: false
   };
 
   lines = ["HAPPY", "BIRTH","DAY", "SANDA", "ESWARI"];
@@ -36,6 +38,8 @@ class HomePage extends Component {
 
   componentDidMount() {
     this.showNextLetter();
+    this.redirectToBallonsPage();
+    
   }
 
   showNextLetter = () => {
@@ -68,14 +72,24 @@ class HomePage extends Component {
     }
   };
 
+  redirectToBallonsPage = () => {
+    setTimeout(() => {
+      this.setState({ redirectedBallonsPage: true });
+    }, 15000);
+  };
+
   render() {
-    const { displayedText } = this.state;
+    const { displayedText,redirectedBallonsPage} = this.state;
+    if(redirectedBallonsPage) {
+        return <Navigate to="/balloons" />
+    }
 
     const getImageUrl = (letter) => {
       return this.letterImageUrls[letter.toLowerCase()] || "";
     };
 
     return (
+      
       <div className="home-container">
         <h1 className="main-heading">To my Special Person</h1>
         {displayedText.map((line, lineIndex) => (
@@ -88,6 +102,7 @@ class HomePage extends Component {
           </div>
         ))}
       </div>
+     
     );
   }
 }

@@ -1,0 +1,10 @@
+.birthday{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://1.bp.blogspot.com/-Z4wBD0ECqNM/WIh1qy6CeuI/AAAAAAAACGU/TUJ3YsjCCoUlyIGJH9pDwaApQYL3evsIACLcB/s1600/Happy-birthday-photos-pictures-HD.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

@@ -1,0 +1,10 @@
+.fireworks{
+    background-image: url("https://bloximages.newyork1.vip.townnews.com/gazette.com/content/tncms/assets/v3/editorial/d/8b/d8bea26c-7b21-11e8-961e-c7b1e9f2e617/5b355fe89c68f.image.jpg?resize=1200%2C800");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
