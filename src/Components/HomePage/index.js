@@ -77,6 +77,7 @@ class HomePage extends Component {
 
     return (
       <div className="home-container">
+        <h1 className="main-heading">To my Special Person</h1>
         {displayedText.map((line, lineIndex) => (
           <div className="line-container" key={lineIndex}>
             {line.split("").map((letter, letterIndex) => (

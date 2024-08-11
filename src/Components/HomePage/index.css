@@ -4,10 +4,20 @@
   padding: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   height: 130vh;
   background: linear-gradient(to bottom, #fbc2eb, #a6c0fe);
+}
+
+
+
+.main-heading:hover{
+    font-family:"Bree Serif";
+    color: chocolate;
+    transform: scale(1.02);
+    cursor: pointer;
+
+
 }
 .line-container {
   display: flex;
@@ -20,13 +30,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: black;
   color: white;
   width: 35px;
   padding: 5px;
   border-radius: 10px;
   height: 35px;
   margin: 0 2px; /* Adjust space between letters */
+}
+
+.letter-container:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.04);
 }
 
 @media screen and (min-width: 380px) {
