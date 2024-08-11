@@ -22,37 +22,37 @@
   align-items: center;
   background-color: blue;
   color: white;
-  width: 25px;
+  width: 35px;
   padding: 5px;
   border-radius: 10px;
-  height: 25px;
+  height: 35px;
   margin: 0 2px; /* Adjust space between letters */
 }
 
 @media screen and (min-width: 380px) {
   .letter-container {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
   }
 }
 
 @media screen and (min-width: 576px) {
   .letter-container {
-    width: 34px;
-    height: 34px;
+    width: 45px;
+    height: 45px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .letter-container {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 }
 @media screen and (min-width: 992px) {
   .letter-container {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
 }
 
