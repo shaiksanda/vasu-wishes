@@ -22,14 +22,14 @@
 .line-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  
   margin-bottom: 10px; /* Adjust spacing between lines */
 }
 
 .letter-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  
   background-color: black;
   color: white;
   width: 35px;
