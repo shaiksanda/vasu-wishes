@@ -114,7 +114,7 @@ class HomePage extends Component {
         <div className="animation">
         <div className="animation-container additional-animation">
                     {thirdData ? (
-                        <Lottie options={this.defaultOptions(thirdData)} height={300} width={300} />
+                        <Lottie options={this.defaultOptions(thirdData)} className="options" />
                     ) : (
                         <p>Loading confetti animation...</p>
                     )}
