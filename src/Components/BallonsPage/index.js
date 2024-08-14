@@ -26,8 +26,8 @@ class BallonsPage extends Component {
         <Confetti
           width={window.innerWidth}
           height={window.innerHeight}
-          numberOfPieces={200} // Adjust number of pieces as needed
-          gravity={0.3} // Adjust gravity to control the fall speed
+          numberOfPieces={300} // Adjust number of pieces as needed
+          gravity={0.2} // Adjust gravity to control the fall speed
         />
         <img
           src="https://www.pngarts.com/files/4/Colorful-Balloons-PNG-Transparent-Image.png"

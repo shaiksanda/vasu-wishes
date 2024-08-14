@@ -1,10 +1,49 @@
-.message{
+.message {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%; /* Full width by default */
+    padding: 20px;
     background-image: url("https://i0.wp.com/artmall.co.ke/wp-content/uploads/2022/10/Thank-You-Messages.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .message {
+        width: 90%; /* Slightly reduce the width for small screens */
+        background-size: contain;
+        padding: 10px;
+    }
+    
+    .message-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .message {
+        width: 80%; /* Reduce width for medium-sized screens */
+        padding: 20px;
+    }
+    
+    .message-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .message {
+        width: 60%; /* Narrower width for very large screens */
+        padding: 40px;
+    }
+    
+    .message-text {
+        font-size: 2rem;
+    }
 }

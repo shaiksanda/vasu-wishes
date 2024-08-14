@@ -1,14 +1,35 @@
-.birthday{
+.birthday {
     display: flex;
+    flex-direction: column; /* Stack animations vertically by default */
     justify-content: center;
     align-items: center;
-    
-    background: linear-gradient(to right,skyblue, dodgerblue);
+    background: linear-gradient(to right, skyblue, dodgerblue);
     height: 100vh;
+    padding: 20px;
 }
 
 .animation-container {
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
     margin-top: 20px;
+    text-align: center; /* Center animations horizontally */
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .birthday {
+        flex-direction: row; /* Place animations side by side on larger screens */
+    }
+    
+    .animation-container {
+        max-width: 33%; /* Make each animation container take up 1/3 of the row */
+        margin-top: 0; /* Remove top margin since they are now in a row */
+    }
+}
+
+@media (min-width: 1200px) {
+    .animation-container {
+        max-width: 300px; /* Further refine width on very large screens */
+    }
 }
