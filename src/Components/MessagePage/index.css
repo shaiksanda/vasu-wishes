@@ -4,16 +4,20 @@
     
     margin:0;
     padding: 20px;
-    background-color: green;
+    background-color: lightgrey;
 }
 
 .impact-image{
-    width:80%;
+    width:40%;
     height:80vh;
     border-radius: 10px;
 
 }
-
+.indian-flag{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .messages{
     margin: 20px;
     width: 100%;
