@@ -40,7 +40,7 @@ class BirthdayPage extends Component {
     renderedMessagePage() {
         setTimeout(() => {
             this.setState({ rendered: true });
-        }, 15000); // Transition to the next page after 10 seconds
+        }, 12000); // Transition to the next page after 10 seconds
     }
 
     render() {
@@ -64,7 +64,7 @@ class BirthdayPage extends Component {
                 <Confetti
                     width={window.innerWidth}
                     height={window.innerHeight}
-                    numberOfPieces={200}
+                    numberOfPieces={300}
                     gravity={0.3}
                 />
                 <div className="animation-container">

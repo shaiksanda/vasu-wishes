@@ -63,7 +63,7 @@ class FireworksPage extends Component {
                 <Confetti
           width={window.innerWidth}
           height={window.innerHeight}
-          numberOfPieces={200} // Adjust number of pieces as needed
+          numberOfPieces={300} // Adjust number of pieces as needed
           gravity={0.3} // Adjust gravity to control the fall speed
         />
                 <div ref={this.containerRef} className="fireworks-container">

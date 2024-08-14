@@ -77,7 +77,7 @@ class HomePage extends Component {
   redirectToBallonsPage = () => {
     setTimeout(() => {
       this.setState({ redirectedBallonsPage: true });
-    }, 15000);
+    }, 10000);
   };
 
   defaultOptions = (animationData) => ({
