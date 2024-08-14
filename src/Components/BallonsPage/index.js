@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Navigate } from "react-router-dom";
+import Confetti from 'react-confetti';
 import "./index.css";
 
 class BallonsPage extends Component {
@@ -22,6 +23,12 @@ class BallonsPage extends Component {
     }
     return (
       <div className="balloons-container">
+        <Confetti
+          width={window.innerWidth}
+          height={window.innerHeight}
+          numberOfPieces={200} // Adjust number of pieces as needed
+          gravity={0.3} // Adjust gravity to control the fall speed
+        />
         <img
           src="https://www.pngarts.com/files/4/Colorful-Balloons-PNG-Transparent-Image.png"
           className="balloon balloon1"

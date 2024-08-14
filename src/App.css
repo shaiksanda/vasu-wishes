@@ -2,3 +2,21 @@
   text-align: center;
 }
 
+.play-button{
+  background-color: brown;
+  border:none;
+  border-radius: 8px;
+  width: 130px;
+  height: 45px;
+  margin: 20px;
+  color: wheat;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.play-button:hover{
+  transform: translate(10px);
+  background-color: blueviolet;
+}
