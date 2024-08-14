@@ -1,49 +1,47 @@
-.message {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%; /* Full width by default */
+.message-container{
+    
+    width: 100%;
+    
+    margin:0;
     padding: 20px;
-    background-image: url("https://i0.wp.com/artmall.co.ke/wp-content/uploads/2022/10/Thank-You-Messages.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: white;
+    background-color: green;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    .message {
-        width: 90%; /* Slightly reduce the width for small screens */
-        background-size: contain;
-        padding: 10px;
-    }
-    
-    .message-text {
-        font-size: 1.2rem;
-    }
+.impact-image{
+    width:80%;
+    height:80vh;
+    border-radius: 10px;
+
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
-    .message {
-        width: 80%; /* Reduce width for medium-sized screens */
-        padding: 20px;
-    }
-    
-    .message-text {
-        font-size: 1.5rem;
-    }
+.messages{
+    margin: 20px;
+    width: 100%;
+    height: 80vh;
+    padding: auto;
+    border-radius: 10px;
+    background: linear-gradient(to right ,dodgerblue,skyblue);
+    display: flex;
+    flex-direction: column;
 }
 
-@media (min-width: 1200px) {
-    .message {
-        width: 60%; /* Narrower width for very large screens */
-        padding: 40px;
-    }
-    
-    .message-text {
-        font-size: 2rem;
+.message-1{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.message-1:hover{
+    background-color: greenyellow;
+    font-family: "Bree Serif";
+    color:navy;
+}
+
+
+@media screen and (min-width: 768px){
+    .messages{
+        flex-direction: row;
     }
 }
