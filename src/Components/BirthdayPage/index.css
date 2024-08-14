@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(to right, skyblue, dodgerblue);
-    height: 100vh;
+    height: 150vh;
     padding: 20px;
 }
 
@@ -20,6 +20,7 @@
 @media (min-width: 768px) {
     .birthday {
         flex-direction: row; /* Place animations side by side on larger screens */
+        height: 100vh;
     }
     
     .animation-container {
