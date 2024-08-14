@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: ;
+  
   align-items: center;
   background: linear-gradient(to bottom, #fbc2eb, #a6c0fe);
 }
@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 
 }
 
