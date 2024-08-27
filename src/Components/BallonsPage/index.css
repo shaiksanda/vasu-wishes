@@ -72,3 +72,16 @@
   .balloon7 { left: 65%; }
   .balloon8 { left: 85%; }
 }
+@media (max-width: 320px) {
+  .balloon {
+      width: 50px; /* Adjust the size of balloons for small phones */
+  }
+  .balloon1 { left: 15%; }
+  .balloon2 { left: 35%; }
+  .balloon3 { left: 55%; }
+  .balloon4 { left: 75%; }
+  .balloon5 { left: 25%; }
+  .balloon6 { left: 45%; }
+  .balloon7 { left: 65%; }
+  .balloon8 { left: 5%; }
+}

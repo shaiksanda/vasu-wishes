@@ -15,7 +15,7 @@ class HomePage extends Component {
     thirdData:null
   };
 
-  lines = ["HAPPY", "BIRTH", "DAY", "SANDA", "ESWARI"];
+  lines = ["HAPPY", "BIRTH", "DAY", "SAI", "JAHNAVI"];
 
   letterImageUrls = {
     n: "https://i.pinimg.com/originals/75/44/2e/75442ea429960c25d6d378ef3a93cb4a.jpg",
@@ -31,6 +31,8 @@ class HomePage extends Component {
     t: "https://pngteam.com/images/t-letter-png-1777x2400_fc69e1a9_transparent.png",
     d: "https://pixy.org/src/9/97444.png",
     w: "https://www.pngplay.com/wp-content/uploads/1/Letter-W-PNG-Stock-Images.png",
+    v:"https://purepng.com/public/uploads/large/v-letter-3ik.png",
+    j:"https://www.pngplay.com/wp-content/uploads/5/Alphabet-J-PNG-Photos.png"
   };
 
   componentDidMount() {
@@ -77,7 +79,7 @@ class HomePage extends Component {
   redirectToBallonsPage = () => {
     setTimeout(() => {
       this.setState({ redirectedBallonsPage: true });
-    }, 10000);
+    }, 8000);
   };
 
   defaultOptions = (animationData) => ({
@@ -114,7 +116,7 @@ class HomePage extends Component {
         <div className="animation">
         <div className="animation-container additional-animation">
                     {thirdData ? (
-                        <Lottie options={this.defaultOptions(thirdData)} className="options" />
+                        <Lottie width={440} options={this.defaultOptions(thirdData)} className="options" />
                     ) : (
                         <p>Loading confetti animation...</p>
                     )}

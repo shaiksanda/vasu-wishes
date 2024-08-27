@@ -42,7 +42,7 @@ class FireworksPage extends Component {
     renderedToBirthdayPage = () => {
         setTimeout(() => {
             this.setState({ rendered: true });
-        }, 22000); // Transition to the next page after 10 seconds
+        }, 12000); // Transition to the next page after 10 seconds
     };
 
     componentWillUnmount() {

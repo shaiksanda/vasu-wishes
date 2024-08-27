@@ -13,7 +13,7 @@ class BallonsPage extends Component {
   redirectToFireWorksPage = () => {
     setTimeout(() => {
       this.setState({ redirected: true });
-    }, 22000); // Redirect after 10 seconds
+    }, 12000); // Redirect after 10 seconds
   };
 
   render() {
