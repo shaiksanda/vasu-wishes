@@ -112,7 +112,7 @@ class HomePage extends Component {
           numberOfPieces={300} // Adjust number of pieces as needed
           gravity={0.3} // Adjust gravity to control the fall speed
         />
-        <h1 className="main-heading">To my Special Person</h1>
+        <h1 className="main-heading">To my Special SISTER</h1>
         <div className="animation">
         <div className="animation-container additional-animation">
                     {thirdData ? (
